@@ -1,0 +1,14 @@
+name: Drupal Theme
+type: theme
+description: "A Custom Theme."
+core_version_requirement: ^9 || ^10
+core: 8.x
+base theme: false
+region:
+  header: Header
+  content: Content
+  footer: Content
+  page_top: Page top
+  page_bottom: Page bottom
+libraries:
+  - "drupalTheme/global"

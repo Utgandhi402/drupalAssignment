@@ -1,0 +1,17 @@
+<div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center aos-init aos-animate" data-aos="zoom-out">
+            <h1>{{content.field_banner_heading}}</h1>
+            <p>{{ content.field_banner_para[0]['#context'].value}}</p>
+            {# <p>{{dump(content.field_banner_para)}}</p> #}
+            <div class="d-flex">
+              {# <a href="#about" class="btn-get-started">{{dump(content.field_banner_button)}}</a> #}
+              <a href="#about" class="btn-get-started">{{content.field_banner_button[0]['#title']}}</a>
+              {# <a href="#about" class="btn-get-started">{{dump(content.field_banner_button)}}</a> #}
+              {# <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> #}
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
+            {{dump(content.field_banner_image)}}
+            {# {{content.field_banner_image[0].}} #}
+          </div>
+</div>
